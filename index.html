@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Haven Fish and Chips Restaurant - Freshly made fish & chips">
+    <title>The Haven Fish and Chips</title>
+    <link rel="stylesheet" href="css/haven.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="opening_times.html">Opening Times</a></li> </ul>
+    </div>
+
+    <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo2.png" alt="The Haven Fish and Chips Logo">
+        </div>
+        <h1 class="main-title">The Haven Fish and Chips</h1>
+    </header>
+
+    <section class="slideshow-container">
+        <div class="slide fade">
+            <img src="images/image1.jpg" alt="Freshly made fish & chips">
+        </div>
+        <div class="slide fade">
+            <img src="images/image2.jpg" alt="Crispy golden chips">
+        </div>
+        <div class="slide fade">
+            <img src="images/image3.jpg" alt="Delicious seafood options">
+        </div>
+        
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <section id="about" class="content-box rounded-box">
+        <h2>About Us</h2>
+        <p>The Haven Fish and Chips Restaurant is dedicated to serving the freshest, crispiest fish and chips in town. We take pride in our traditional recipes, quality ingredients, and exceptional service. The owners: Ryan and Stephen are father and son who have now owned this fine fish and chip restaurant for the better part of 2 years now, having no experience with this they decided to jump into the deep end with this (pun intended) but have now started to thrive in this new era of their life and continue to provide the best fish and chips they can!</p>
+    </section>
+
+    <section id="where-to-find-us" class="content-box rounded-box">
+        <h2>Where to find us</h2>
+        <img src="images/location2.jpg" alt="Map of The Haven location"> 
+        <p>We are located on 1 Alexandria Drive, FY8 1NL, Lytham St Annes.</p>
+    </section>
+
+    <section id="contact us" class="content-box rounded-box">
+        <h2>Contact us</h2>
+        <p>Contact us for bookings or questions.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 The Haven Fish and Chips Restaurant</p>
+    </footer>
+
+    <script src="haven js/haven.js"></script>
+</body>
+</html>
